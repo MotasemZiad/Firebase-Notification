@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FirebaseNotification</string>
+    <string name="message_token">This is the message that you received by token</string>
+</resources>
