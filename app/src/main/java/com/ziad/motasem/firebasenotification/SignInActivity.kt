@@ -37,6 +37,7 @@ class SignInActivity : AppCompatActivity() {
             if (email.text.isEmpty()) email.error = "Please fill this field"
             if (password.text.isEmpty()) password.error = "Please fill this field"
             login()
+            startActivity(Intent(this, MainActivity::class.java))
         }
 
         binding.tvSignUp.setOnClickListener {

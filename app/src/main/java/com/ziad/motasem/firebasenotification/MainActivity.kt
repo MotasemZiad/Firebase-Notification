@@ -16,9 +16,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.tvHello.setOnClickListener {
-            Toast.makeText(this, "Hello World!", Toast.LENGTH_SHORT).show()
-        }
         getRegistrationToken()
     }
 
